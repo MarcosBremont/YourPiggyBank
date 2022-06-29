@@ -10,6 +10,154 @@ namespace YourPiggyBank.Views
         public AboutPage()
         {
             InitializeComponent();
+
+            ImgPesoDominicano.GestureRecognizers.Add(
+               new TapGestureRecognizer()
+               {
+                   Command = new Command(async () =>
+                   {
+                       ImgPiggyB.IsAnimationPlaying = true;
+
+                   }),
+                   NumberOfTapsRequired = 1
+
+               }
+             );
+
+            ImgPesoDominicano5.GestureRecognizers.Add(
+             new TapGestureRecognizer()
+             {
+                 Command = new Command(async () =>
+                 {
+                     ImgPiggyB.IsAnimationPlaying = true;
+
+                 }),
+                 NumberOfTapsRequired = 1
+
+             }
+           );
+
+            ImgPesoDominicano.GestureRecognizers.Add(
+             new TapGestureRecognizer()
+             {
+                 Command = new Command(async () =>
+                 {
+                     ImgPiggyB.IsAnimationPlaying = true;
+
+                 }),
+                 NumberOfTapsRequired = 1
+
+             }
+           );
+
+            ImgPesoDominicano5.GestureRecognizers.Add(
+             new TapGestureRecognizer()
+             {
+                 Command = new Command(async () =>
+                 {
+                     ImgPiggyB.IsAnimationPlaying = true;
+
+                 }),
+                 NumberOfTapsRequired = 1
+
+             }
+           );
+
+            ImgPesoDominicano10.GestureRecognizers.Add(
+             new TapGestureRecognizer()
+             {
+                 Command = new Command(async () =>
+                 {
+                     ImgPiggyB.IsAnimationPlaying = true;
+
+                 }),
+                 NumberOfTapsRequired = 1
+
+             }
+           );
+
+            ImgPesoDominicano25.GestureRecognizers.Add(
+             new TapGestureRecognizer()
+             {
+                 Command = new Command(async () =>
+                 {
+                     ImgPiggyB.IsAnimationPlaying = true;
+
+                 }),
+                 NumberOfTapsRequired = 1
+
+             }
+           );
+
+            //Billetes
+
+
+            ImgBillete100.GestureRecognizers.Add(
+             new TapGestureRecognizer()
+             {
+                 Command = new Command(async () =>
+                 {
+                     ImgPiggyB.IsAnimationPlaying = true;
+
+                 }),
+                 NumberOfTapsRequired = 1
+
+             }
+           );
+
+            ImgBillete200.GestureRecognizers.Add(
+             new TapGestureRecognizer()
+             {
+                 Command = new Command(async () =>
+                 {
+                     ImgPiggyB.IsAnimationPlaying = true;
+
+                 }),
+                 NumberOfTapsRequired = 1
+
+             }
+           );
+
+            ImgBillete500.GestureRecognizers.Add(
+             new TapGestureRecognizer()
+             {
+                 Command = new Command(async () =>
+                 {
+                     ImgPiggyB.IsAnimationPlaying = true;
+
+                 }),
+                 NumberOfTapsRequired = 1
+
+             }
+           );
+
+            ImgBillete1000.GestureRecognizers.Add(
+             new TapGestureRecognizer()
+             {
+                 Command = new Command(async () =>
+                 {
+                     ImgPiggyB.IsAnimationPlaying = true;
+
+                 }),
+                 NumberOfTapsRequired = 1
+
+             }
+           );
+
+            ImgBillete2000.GestureRecognizers.Add(
+             new TapGestureRecognizer()
+             {
+                 Command = new Command(async () =>
+                 {
+                     ImgPiggyB.IsAnimationPlaying = true;
+
+                 }),
+                 NumberOfTapsRequired = 1
+
+             }
+           );
+
+
         }
     }
 }
