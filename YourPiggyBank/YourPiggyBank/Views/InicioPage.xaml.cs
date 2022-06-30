@@ -11,8 +11,6 @@ namespace YourPiggyBank.Views
         {
             InitializeComponent();
 
-            //Billetes
-
         }
     }
 }
