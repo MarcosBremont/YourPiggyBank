@@ -1,0 +1,74 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="YourPiggyBank.Views.GastosPage"
+             Title="{Binding Title}"
+             xmlns:local="clr-namespace:YourPiggyBank.ViewModels"  
+             xmlns:model="clr-namespace:YourPiggyBank.Models"  
+             x:Name="BrowseGastosPage">
+
+    <ContentPage.ToolbarItems>
+        <ToolbarItem Text="Agregar"/>
+    </ContentPage.ToolbarItems>
+
+    <StackLayout VerticalOptions="FillAndExpand" Grid.Row="0" Grid.Column="0" Orientation="Vertical" Margin="0,0,0,0">
+        <ListView VerticalOptions="FillAndExpand" x:Name="lsv_gastos" Grid.Row="0" BackgroundColor="Transparent" HorizontalOptions="CenterAndExpand" SeparatorVisibility="Default"  SeparatorColor="#18356F" HasUnevenRows="True" >
+            <ListView.ItemTemplate>
+
+                <DataTemplate>
+
+                    <ViewCell>
+
+
+                        <!--ITEM-->
+                        <StackLayout Margin="0,0,0,5" VerticalOptions="FillAndExpand">
+                            <Frame HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand" HasShadow="False"  CornerRadius="4" BackgroundColor="#FFFFFF">
+                                <StackLayout VerticalOptions="Center" Orientation="Horizontal" BackgroundColor="#FFFFFF"  Spacing="0">
+
+                                    <StackLayout VerticalOptions="Center" Orientation="Vertical" >
+
+                                        <Image  HeightRequest="40" WidthRequest="40" Source="costsaving.png" />
+                                    </StackLayout>
+                                    <StackLayout Margin="10,0,0,0" Orientation="Vertical" >
+
+                                        <Frame CornerRadius="4" HasShadow="False"  Padding="0" IsClippedToBounds="True">
+                                            <StackLayout Orientation="Horizontal"  HorizontalOptions="Start" >
+                                                <Label Text="Desayuno" VerticalOptions="Center"  FontSize="14" FontAttributes="Bold" TextColor="#1E2021" />
+                                                <Frame HasShadow="False" Padding="5" VerticalOptions="Center"  CornerRadius="4" BackgroundColor="#FFCC00" HorizontalOptions="Start">
+                                                    <StackLayout Orientation="Horizontal">
+
+                                                        <Label VerticalOptions="Center" Text="RD$" FontAttributes="Bold" FontSize="12" TextColor="#333" />
+                                                        <Label VerticalOptions="Center" Text="150" FontAttributes="Bold" FontSize="12" TextColor="#333" />
+                                                    </StackLayout>
+                                                </Frame>
+
+                                            </StackLayout>
+
+                                        </Frame>
+
+
+                                        <StackLayout Orientation="Horizontal" VerticalOptions="Center" Margin="0,0,0,0">
+                                            <Label Text="Compre un buen desayuno que me llenó" VerticalOptions="Center"  FontSize="14" TextColor="#333" />
+                                        </StackLayout>
+
+                                    </StackLayout>
+
+
+
+                                </StackLayout>
+                            </Frame>
+                            <!--<BoxView BackgroundColor="Black" HeightRequest="2"/>-->
+                        </StackLayout>
+                    </ViewCell>
+
+                </DataTemplate>
+
+
+            </ListView.ItemTemplate>
+        </ListView>
+
+    </StackLayout>
+
+
+</ContentPage>
+

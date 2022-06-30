@@ -14,15 +14,15 @@
     <Shell.Resources>
         <ResourceDictionary>
             <Style x:Key="BaseStyle" TargetType="Element">
-                <Setter Property="Shell.BackgroundColor" Value="#0E5C46" />
+                <Setter Property="Shell.BackgroundColor" Value="#35A894" />
                 <Setter Property="Shell.ForegroundColor" Value="#0E5C46" />
-                <Setter Property="Shell.TitleColor" Value="White" />
-                <Setter Property="Shell.DisabledColor" Value="#B4FFFFFF" />
+                <Setter Property="Shell.TitleColor" Value="#FDFEFF" />
+                <Setter Property="Shell.DisabledColor" Value="#FDFEFF" />
                 <Setter Property="Shell.UnselectedColor" Value="#0E5C46" />
-                <Setter Property="Shell.TabBarBackgroundColor" Value="#0E5C46" />
-                <Setter Property="Shell.TabBarForegroundColor" Value="White"/>
-                <Setter Property="Shell.TabBarUnselectedColor" Value="#95FFFFFF"/>
-                <Setter Property="Shell.TabBarTitleColor" Value="White"/>
+                <Setter Property="Shell.TabBarBackgroundColor" Value="#35A894" />
+                <Setter Property="Shell.TabBarForegroundColor" Value="#FDFEFF"/>
+                <Setter Property="Shell.TabBarUnselectedColor" Value="#FDFEFF"/>
+                <Setter Property="Shell.TabBarTitleColor" Value="#FDFEFF"/>
             </Style>
             <Style TargetType="TabBar" BasedOn="{StaticResource BaseStyle}" />
             <Style TargetType="FlyoutItem" BasedOn="{StaticResource BaseStyle}" />
@@ -30,10 +30,10 @@
     </Shell.Resources>
 
     <TabBar>
-        <ShellContent Title="Inicio" Icon="settings-free-icon-font_18pt_1x.png" Route="AboutPage" ContentTemplate="{DataTemplate local:AboutPage}" />
-        <ShellContent Title="Ahorros" Icon="piggy-bank-free-icon-font_20pt_1x.png" ContentTemplate="{DataTemplate local:ItemsPage}" />
-        <ShellContent Title="Reportes" Icon="icon_feed.png" ContentTemplate="{DataTemplate local:ItemsPage}" />
-        <ShellContent Title="Ajustes" Icon="icon_feed.png" ContentTemplate="{DataTemplate local:ItemsPage}" />
+        <ShellContent Title="Inicio" Icon="costsaving4.png" Route="AboutPage" ContentTemplate="{DataTemplate local:InicioPage}" />
+        <ShellContent Title="Gastos" Icon="costsaving4.png" ContentTemplate="{DataTemplate local:GastosPage}" />
+        <ShellContent Title="Reportes" Icon="costsaving4.png" ContentTemplate="{DataTemplate local:GastosPage}" />
+        <ShellContent Title="Ajustes" Icon="costsaving4.png" ContentTemplate="{DataTemplate local:GastosPage}" />
     </TabBar>
 
     <!--

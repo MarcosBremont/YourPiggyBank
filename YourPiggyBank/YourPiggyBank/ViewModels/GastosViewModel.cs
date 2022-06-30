@@ -10,7 +10,7 @@ using YourPiggyBank.Views;
 
 namespace YourPiggyBank.ViewModels
 {
-    public class ItemsViewModel : BaseViewModel
+    public class GastosViewModel : BaseViewModel
     {
         private Item _selectedItem;
 
@@ -19,9 +19,9 @@ namespace YourPiggyBank.ViewModels
         public Command AddItemCommand { get;  }
         public Command<Item> ItemTapped { get; }
 
-        public ItemsViewModel()
+        public GastosViewModel()
         {
-            Title = "Browse";
+            Title = "GASTOS";
             Items = new ObservableCollection<Item>();
             LoadItemsCommand = new Command(async () => await ExecuteLoadItemsCommand());
 

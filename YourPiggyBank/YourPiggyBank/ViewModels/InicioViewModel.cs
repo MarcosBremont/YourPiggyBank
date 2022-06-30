@@ -5,11 +5,11 @@ using Xamarin.Forms;
 
 namespace YourPiggyBank.ViewModels
 {
-    public class AboutViewModel : BaseViewModel
+    public class InicioViewModel : BaseViewModel
     {
-        public AboutViewModel()
+        public InicioViewModel()
         {
-            Title = "About";
+            Title = "Inicio";
             OpenWebCommand = new Command(async () => await Browser.OpenAsync("https://aka.ms/xamarin-quickstart"));
         }
 

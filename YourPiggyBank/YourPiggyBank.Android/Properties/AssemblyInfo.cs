@@ -27,5 +27,10 @@ using Android.App;
 
 // Add some common permissions, these can be removed if not needed
 [assembly: UsesPermission(Android.Manifest.Permission.Internet)]
+[assembly: Application(UsesCleartextTraffic = true)]
+
 [assembly: UsesPermission(Android.Manifest.Permission.WriteExternalStorage)]
+[assembly: UsesPermission(Android.Manifest.Permission.Camera)]
+[assembly: UsesFeature("Android.Hardware.Camera", Required = false)]
+[assembly: UsesFeature("Android.Hardware.Camera.autofocus", Required = false)]
 
