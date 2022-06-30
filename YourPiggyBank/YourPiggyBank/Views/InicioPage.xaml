@@ -22,7 +22,7 @@
             <RowDefinition Height="*" />
         </Grid.RowDefinitions>
 
-        <Frame CornerRadius="10" BackgroundColor="#35A894">
+        <Frame HasShadow="False" CornerRadius="10" BackgroundColor="#35A894">
             <StackLayout HorizontalOptions="Center">
                 <Label Text="¿Cuanto tienes ahorrado?" TextColor="White" FontAttributes="Bold" FontSize="16"/>
                 <StackLayout HorizontalOptions="Center" Orientation="Horizontal">
@@ -35,7 +35,7 @@
 
         <ScrollView Grid.Row="1">
             <StackLayout Orientation="Vertical"  Spacing="10">
-                <Frame CornerRadius="10" BackgroundColor="#23216E">
+                <Frame HasShadow="False" CornerRadius="10" BackgroundColor="#23216E">
                     <StackLayout>
                         <Label Text="¿Has apartado dinero para hoy?" TextColor="White" FontAttributes="Bold" FontSize="16"/>
                         <Label Text="un dinero adicional para hoy haga que su saldo se financie en este mes. ahorra dinero 10 - 25 pesos equilibra tus finanzas" TextColor="White" FontSize="12"/>
@@ -47,7 +47,7 @@
 
                 <StackLayout  Orientation="Vertical">
 
-                    <Frame CornerRadius="10" BackgroundColor="#23216E">
+                    <Frame HasShadow="False" CornerRadius="10" BackgroundColor="#23216E">
                         <StackLayout>
                             <Label TextColor="White" FontAttributes="Bold" Text="¿Cuanto vas a guardar hoy?" FontSize="14"/>
                             <Frame Padding="0" BorderColor="White" HasShadow="False" CornerRadius="8" Margin="0,0,0,15" x:Name="FrEmail" >

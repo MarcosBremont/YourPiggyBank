@@ -34,11 +34,11 @@
                                         <Frame CornerRadius="4" HasShadow="False"  Padding="0" IsClippedToBounds="True">
                                             <StackLayout Orientation="Horizontal"  HorizontalOptions="Start" >
                                                 <Label Text="Desayuno" VerticalOptions="Center"  FontSize="14" FontAttributes="Bold" TextColor="#1E2021" />
-                                                <Frame HasShadow="False" Padding="5" VerticalOptions="Center"  CornerRadius="4" BackgroundColor="#FFCC00" HorizontalOptions="Start">
-                                                    <StackLayout Orientation="Horizontal">
+                                                <Frame HasShadow="False" Padding="5" VerticalOptions="Center"  CornerRadius="4" BackgroundColor="#FFCC00" HorizontalOptions="End">
+                                                    <StackLayout HorizontalOptions="End" Orientation="Horizontal">
 
-                                                        <Label VerticalOptions="Center" Text="RD$" FontAttributes="Bold" FontSize="12" TextColor="#333" />
-                                                        <Label VerticalOptions="Center" Text="150" FontAttributes="Bold" FontSize="12" TextColor="#333" />
+                                                        <Label VerticalOptions="Center" HorizontalOptions="End" Text="RD$" FontAttributes="Bold" FontSize="12" TextColor="#333" />
+                                                        <Label VerticalOptions="Center" HorizontalOptions="End" Text="150" FontAttributes="Bold" FontSize="12" TextColor="#333" />
                                                     </StackLayout>
                                                 </Frame>
 
