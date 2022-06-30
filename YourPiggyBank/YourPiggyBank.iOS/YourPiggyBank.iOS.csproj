@@ -148,4 +148,25 @@
       <Name>YourPiggyBank</Name>
     </ProjectReference>
   </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\money.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\costsaving3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\costsaving4.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\costsaving5.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\costsaving.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\costsaving1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\costsaving2.png" />
+  </ItemGroup>
 </Project>
