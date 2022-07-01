@@ -128,6 +128,14 @@
     <BundleResource Include="Resources\piggy-bank-free-icon-font_20pt_1x.png" />
     <BundleResource Include="Resources\piggy-bank-free-icon-font_20pt_2x.png" />
     <BundleResource Include="Resources\piggy-bank-free-icon-font_20pt_3x.png" />
+    <BundleResource Include="Resources\costsaving.png" />
+    <BundleResource Include="Resources\costsaving1.png" />
+    <BundleResource Include="Resources\costsaving2.png" />
+    <BundleResource Include="Resources\costsaving3.png" />
+    <BundleResource Include="Resources\costsaving4.png" />
+    <BundleResource Include="Resources\costsaving5.png" />
+    <BundleResource Include="Resources\piggy16.png" />
+    <BundleResource Include="Resources\piggy24.png" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="System" />
