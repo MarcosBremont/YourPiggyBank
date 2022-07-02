@@ -30,10 +30,10 @@
     </Shell.Resources>
 
     <TabBar>
-        <ShellContent Title="Inicio"  Icon="piggy24.png" Route="AboutPage" ContentTemplate="{DataTemplate local:InicioPage}" />
-        <ShellContent Title="Gastos" Icon="piggy24.png" ContentTemplate="{DataTemplate local:GastosPage}" />
-        <ShellContent Title="Reportes" Icon="piggy24.png" ContentTemplate="{DataTemplate local:GastosPage}" />
-        <ShellContent Title="Ajustes" Icon="piggy24.png" ContentTemplate="{DataTemplate local:GastosPage}" />
+        <ShellContent Title="Inicio"  Icon="piggybank24.png" Route="InicioPage" ContentTemplate="{DataTemplate local:InicioPage}" />
+        <ShellContent Title="Gastos" Icon="usdsquarefreeiconfontandroid24.png" ContentTemplate="{DataTemplate local:GastosPage}" />
+        <ShellContent Title="Reportes" Icon="treatment24.png" ContentTemplate="{DataTemplate local:GastosPage}" />
+        <ShellContent Title="Ajustes" Icon="settings24.png" ContentTemplate="{DataTemplate local:GastosPage}" />
     </TabBar>
 
     <!--
